@@ -1,1 +1,78 @@
+/* 
+
+<insSup>⌜[^⌝</insSup>]*⌝
+<insOver>[^</insOver>]*⌟ 
+
+*/
+
 @import 'tailwindcss';
+
+	p {
+		@apply my-5;
+	}
+	h1,
+	h2,
+	h3,
+	h4 {
+		@apply text-2xl font-bold;
+	}
+
+	[data-fassung='LF'] {
+		insOver,
+		insSup,
+		strike,
+		br:not([data-type='lf']),
+		hyphen {
+			@apply hidden;
+		}
+	}
+
+	[data-fassung='DF'] {
+		blockContent::before {
+			@apply absolute -top-2 -left-2 bg-sky-100 px-2 py-1 font-bold text-black content-[attr(data-label)];
+		}
+
+		blockContent {
+			@apply relative block border-2 border-sky-600 p-4 pt-7;
+		}
+
+		hand,
+		handFree,
+		insOver,
+		insSup,
+		hand {
+			@apply text-blue-500 italic;
+		}
+
+		insSup {
+			@apply text-xs;
+			vertical-align: super;
+		}
+		strike insSup {
+			@apply line-through;
+		}
+		insOver::before {
+			content: '⌜';
+		}
+		insOver::after {
+			content: '⌟';
+		}
+		insSup::before {
+			content: '⌜';
+		}
+		insSup::after {
+			content: '⌝';
+		}
+		hand::before {
+			content: '{';
+		}
+		hand::after {
+			content: '}';
+		}
+		unclear::before {
+			content: '[';
+		}
+		unclear::after {
+			content: ']';
+		}
+	}
