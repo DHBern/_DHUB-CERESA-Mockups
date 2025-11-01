@@ -16,7 +16,7 @@
 	</thead>
 {/snippet}
 
-<h1 class="h1">Transcription guide</h1>
+<h1 class="mb-20! h1">Transcription guide</h1>
 <table class="mx-auto mt-10 w-full text-left">
 	{@render thead()}
 	<tbody>
@@ -134,6 +134,31 @@
 			<th data-fassung="LF">Alice <illegible>xxx</illegible> Ceresa</th>
 			<th>Illegible word (1 x = approx. 1 letter)</th></tr
 		>
+	</tbody>
+</table>
+
+<h1 class="mt-30 mb-20! h1">Semantic Annotations</h1>
+<table class="mx-auto mt-10 w-full text-left">
+	<thead></thead>
+	<tbody>
+		<tr
+			><th class="font-bold! italic"
+				>Different combinations to get a feel about what's possible. Of course we should choose one
+				of the options.</th
+			></tr
+		>
+		<tr>
+			<th data-fassung="DF">This is how <a data-place href="">places</a> are highlighted.</th></tr
+		>
+		<tr
+			><th data-fassung="DF">This is how <a data-person href="">people</a> are highlighted.</th></tr
+		>
+		<tr
+			><th data-fassung="DF"
+				>This is how <a data-publisher href="">publishing houses</a> are highlighted.</th
+			></tr
+		>
+		<tr><th data-fassung="DF">This is how <a data-work href="">Works</a> are highlighted.</th></tr>
 	</tbody>
 </table>
 

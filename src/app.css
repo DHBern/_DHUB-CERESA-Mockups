@@ -15,7 +15,35 @@ a[data-crossref]::before {
 	@apply bg-amber-100 rounded-xl px-2 font-bold cursor-pointer;
 	content: '↗'
 }
+a[data-publisher]::before {
+	@apply bg-orange-100 rounded-xl px-2 font-bold cursor-pointer;
+	content: '↗'
+}
+a[data-publisher] {
+	@apply text-orange-300;
+}
+a[data-person]::before {
+	@apply bg-red-100 rounded-xl px-2 font-bold cursor-pointer;
+	content: '↗'
+}
+a[data-person] {
+	@apply underline decoration-red-100 decoration-[18%] pr-2;
+}
+a[data-place]::before {
+	@apply bg-sky-100 rounded-xl px-2 font-bold cursor-pointer;
+	content: '↗'
+}
+a[data-work] {
+	@apply rounded-xl border-green-500  border pr-2;
+}
+a[data-work]::before {
+	@apply bg-green-100 rounded-tl-xl rounded-bl-xl px-2 font-bold cursor-pointer;
+	content: '↗'
+}
 
+h1 {
+	@apply mb-40;
+}
 p {
 	@apply my-5;
 }
@@ -26,6 +54,14 @@ insEditorial::before {
 insEditorial::after {
 	content: ']';
 }
+/* insEditorial {
+	@apply relative;
+}
+insEditorial:hover:after {
+	@apply absolute bg-sky-100 py-[1px] text-black text-nowrap;
+	content: '] Editorial insertion';
+} */
+
 uncertain::before {
 	content: '[';
 }

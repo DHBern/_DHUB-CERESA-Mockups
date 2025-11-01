@@ -19,7 +19,8 @@
 	<a href={`${base}/docs/adamo`}>Adamo</a>
 	<a href={`${base}/docs/anima`}>Anima</a>
 	<a href={`${base}/docs/aborto`}>Aborto</a>
-	<a href={`${base}/docs/carson`}>Carson McCullers</a>
+	<a href={`${base}/docs/carson-de`}>Carson McCullers (de)</a>
+	<a href={`${base}/docs/carson-it`}>Carson McCullers (it)</a>
 </nav>
 
 <div class="mx-auto mt-50 mb-100 max-w-250">
