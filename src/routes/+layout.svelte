@@ -11,7 +11,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<nav class="fixed top-5 left-5 flex flex-wrap gap-x-10 font-bold">
+<nav class="fixed top-0 flex min-h-15 w-full flex-wrap gap-x-10 bg-white pt-5 pl-5 font-bold">
 	<a class="text-red-300" href={`${base}/markup-guide`}>Guide</a>
 	<a href={`${base}/docs/eloisa1`}>Eloisa frammento 1</a>
 	<a href={`${base}/docs/eloisa2`}>Eloisa frammento 2</a>
@@ -22,6 +22,6 @@
 	<a href={`${base}/docs/carson`}>Carson McCullers</a>
 </nav>
 
-<div class="mx-auto mt-50 max-w-250">
+<div class="mx-auto mt-50 mb-100 max-w-250">
 	{@render children()}
 </div>

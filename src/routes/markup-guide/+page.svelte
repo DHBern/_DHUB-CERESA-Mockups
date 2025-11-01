@@ -1,8 +1,16 @@
 {#snippet thead()}
 	<thead>
-		<tr>
-			<th>DF</th>
-			<th>LF</th>
+		<tr class="">
+			<th
+				><div class="flex h-10 w-10 items-center rounded-full bg-blue-200">
+					<p class="w-full text-center">DF</p>
+				</div></th
+			>
+			<th
+				><div class="flex h-10 w-10 items-center rounded-full bg-red-200">
+					<p class="w-full text-center">LF</p>
+				</div></th
+			>
 			<th>Description</th>
 		</tr>
 	</thead>
