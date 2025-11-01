@@ -8,6 +8,56 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Poesie</h1>
-		<p></p>
+		<p>
+			Ogni male che mi fai<br break="no" />
+			lo <delete>veli</delete> <add place="above">fai precedere</add> d’<insert>a</insert>una nuova
+			tenerezza<br break="no" />
+			e non sai<br break="no" />
+			che per questo diventa più amaro.<br break="no" />
+			<br break="no" />
+			<span class="text-right">Losanna, luglio 1943</span><br break="no" />
+
+			<br break="no" />
+			<br break="no" />
+
+			Ti ho amata<br break="no" />
+			te ne ricordi?<br break="no" />
+			Or sulla strada
+			<subst
+				><delete>bianca</delete>
+				<add place="above">
+					<subst>
+						<del> e polvere </del>
+						<add place="above">lunga</add>
+					</subst>
+				</add>
+			</subst>
+			<br break="no" />
+
+			canta
+			<subst>
+				<del>il mio dolore</del><add place="below">un pianto <delete>solo</delete> lontano</add
+				></subst
+			>
+			<br break="no" />
+
+			<altVariant data-label="Variante alternativa">
+				<comment
+					>Nel marg. sin. l'autrice annotata una variante alternativa per il quarto verso della
+					lirica. Il verso contiene a sua volta un ulteriore serie di varianti alternative per il
+					verbo «svanisce» («muore»; «si perde») e l'aggettivo «lontano» («più solo»), appuntate tra
+					parentesi tonde.</comment
+				>
+				svanisce <insert place="below">(si perde)</insert> <insert place="above">(muore)</insert> un
+				passo lontano <insert place="below">(più solo)</insert>
+			</altVariant>
+			<br break="no" />
+			dalla finestra nera<br break="no" />
+			<delete>odo</delete> <insert place="below">vedo</insert> <delete>tra</delete>scorrere il fiume<br
+				break="no"
+			/>
+
+			Zurigo, primavera 44. 15<unclear>?</unclear><insert>23</insert>.4.44.
+		</p>
 	</div>
 </div>

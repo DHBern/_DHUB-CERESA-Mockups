@@ -162,7 +162,7 @@
 				<th>«Ceresa» replaces «Alice» in the margin by hand</th></tr
 			>
 
-			<!-- Section -->
+			<!-- Repositioning -->
 			<tr><th><h3 class="mt-2 h5">Repositioning by Ceresa</h3></th></tr>
 
 			<tr>
@@ -174,10 +174,35 @@
 					><movedBlockRef data-ref="1" />Alice
 					<movedBlock data-ref="1" data-label="Paragrafo riposizionato">Ceresa</movedBlock></th
 				>
+				<th>Repositioned paragraph</th>
 			</tr>
 
-			<!-- Section -->
-			<tr><th><h3 class="mt-2 h5">Editorial Interventions</h3></th></tr>
+			<tr>
+				<th data-fassung="DF"
+					><movedBlockRef data-ref="2" />Alice
+					<movedBlock data-ref="2" data-label="Parola riposizionato">Ceresa</movedBlock></th
+				>
+				<th data-fassung="LF"
+					><movedBlockRef data-ref="2" />Alice
+					<movedBlock data-ref="2" data-label="Parola riposizionato">Ceresa</movedBlock></th
+				>
+				<th>Repositioned word</th>
+			</tr>
+
+			<tr><th><h3 class="mt-2 h5">Variants</h3></th></tr>
+
+			<tr
+				><th
+					>Alice Ceresa
+					<altVariant data-label="Variante alternativa"> Alice </altVariant></th
+				><th
+					>Alice Ceresa
+					<altVariant data-label="Variante alternativa"> Alice </altVariant></th
+				>
+				<th>An alternative way of writing «Alice Ceresa» is «Alice»</th>
+
+				<!-- Editorial Interventions -->
+			</tr><tr><th><h3 class="mt-2 h5">Editorial Interventions</h3></th></tr>
 
 			<tr>
 				<th data-fassung="DF"
