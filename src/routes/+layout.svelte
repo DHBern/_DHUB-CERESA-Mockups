@@ -14,7 +14,7 @@
 <nav
 	class="fixed top-0 z-1000 flex min-h-15 w-full flex-wrap gap-x-10 bg-white pt-5 pl-5 font-bold"
 >
-	<a class="text-red-300" href={`${base}/markup-guide`}>Guide</a>
+	<a class="text-red-300" href={`${base}/guide`}>Guide</a>
 	<a href={`${base}/docs/eloisa1`}>Eloisa frammento 1</a>
 	<a href={`${base}/docs/eloisa2`}>Eloisa frammento 2</a>
 	<a href={`${base}/docs/poesie`}>Poesie</a>
