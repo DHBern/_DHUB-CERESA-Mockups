@@ -148,7 +148,10 @@ altVariant {
 	/* typewriter style */
 	add[type='typewriter'],
 	insert[type='typewriter'],
+	substMargin[type='typewriter'] add,
+	substMargin[type='typewriter'] delete,
 	subst[type='typewriter'] add,
+	subst[type='typewriter'] delete,
 	delete[type='typewriter'] {
 		@apply text-black decoration-black;
 	}

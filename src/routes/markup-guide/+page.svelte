@@ -22,6 +22,7 @@
 		<tbody>
 			<!-- INSERTIONS -->
 			<tr><th><h3 class="mt-2 h5">Insertions by Ceresa</h3></th></tr>
+			<!-- Hand -->
 			<tr>
 				<th data-fassung="DF">Alice <add>Ceresa</add></th>
 				<th data-fassung="LF">Alice <add>Ceresa</add></th>
@@ -43,30 +44,31 @@
 				<th>Insertion within the line by hand</th></tr
 			>
 			<tr>
+				<th data-fassung="DF">Ali<insMargin type="hand">c</insMargin>e Ceresa</th>
+				<th data-fassung="LF">Ali<insMargin type="hand">c</insMargin>e Ceresa</th>
+				<th><strike>Insertion in the margin by hand</strike></th></tr
+			>
+			<!-- Typewriter -->
+			<tr>
 				<th data-fassung="DF">Ali<insert type="typewriter" place="above">c</insert>e Ceresa</th>
 				<th data-fassung="LF">Ali<insert type="typewriter" place="above">c</insert>e Ceresa</th>
-				<th>Insertion above the line with typewriter</th></tr
+				<th>Insertion above the line with the typewriter</th></tr
 			>
 			<tr>
 				<th data-fassung="DF">Ali<insert type="typewriter" place="below">c</insert>e Ceresa</th>
 				<th data-fassung="LF">Ali<insert type="typewriter" place="below">c</insert>e Ceresa</th>
-				<th>Insertion below the line with typewriter</th></tr
+				<th>Insertion below the line with the typewriter</th></tr
 			>
 			<tr>
 				<th data-fassung="DF">Ali<insert type="typewriter" place="inline">c</insert>e Ceresa</th>
 				<th data-fassung="LF">Ali<insert type="typewriter" place="inline">c</insert>e Ceresa</th>
-				<th>Insertion within the line with typewriter</th></tr
+				<th>Insertion within the line with the typewriter</th></tr
 			>
 
 			<tr>
 				<th data-fassung="DF">Ali<insMargin>c</insMargin>e Ceresa</th>
 				<th data-fassung="LF">Ali<insMargin>c</insMargin>e Ceresa</th>
-				<th>Insertion in the margin with typewriter</th></tr
-			>
-			<tr>
-				<th data-fassung="DF">Ali<insMargin type="hand">c</insMargin>e Ceresa</th>
-				<th data-fassung="LF">Ali<insMargin type="hand">c</insMargin>e Ceresa</th>
-				<th>Insertion in the margin by hand</th></tr
+				<th>Insertion in the margin with the typewriter</th></tr
 			>
 
 			<!-- DELETIONS -->
@@ -82,8 +84,18 @@
 				<th>Crossed out with the typewriter</th></tr
 			>
 
-			<!-- REPLACEMENTS -->
-			<tr><th><h3 class="mt-2 h5">Replacements by Ceresa</h3></th></tr>
+			<!-- SUBSTITUTIONS -->
+			<tr><th><h3 class="mt-2 h5">Substitutions by Ceresa</h3></th></tr>
+			<!-- hand -->
+			<tr>
+				<th data-fassung="DF"
+					><subst type="hand"><delete>Alice</delete> <add place="over">Ceresa</add></subst></th
+				>
+				<th data-fassung="LF"
+					><subst type="hand"><delete>Alice</delete> <add place="over">Ceresa</add></subst></th
+				>
+				<th>«Ceresa» written over «Alice» by hand</th></tr
+			>
 			<tr>
 				<th data-fassung="DF"
 					><subst type="hand"><delete>Alice</delete> <add place="above">Ceresa</add></subst></th
@@ -104,53 +116,12 @@
 			>
 			<tr>
 				<th data-fassung="DF"
-					><subst type="typewriter"><delete>Alice</delete> <add place="inline">Ceresa</add></subst
-					></th
-				>
-				<th data-fassung="LF"
-					><subst type="typewriter"><delete>Alice</delete> <add place="inline">Ceresa</add></subst
-					></th
-				>
-				<th>«Ceresa» replaces «Alice» within the line with typewriter</th></tr
-			>
-			<tr>
-				<th data-fassung="DF"
 					><subst type="hand"><delete>Alice</delete> <add place="inline">Ceresa</add></subst></th
 				>
 				<th data-fassung="LF"
 					><subst type="hand"><delete>Alice</delete> <add place="inline">Ceresa</add></subst></th
 				>
 				<th>«Ceresa» replaces «Alice» within the line by hand</th></tr
-			>
-
-			<tr>
-				<th data-fassung="DF"
-					><subst type="hand"><delete>Alice</delete> <add place="over">Ceresa</add></subst></th
-				>
-				<th data-fassung="LF"
-					><subst type="hand"><delete>Alice</delete> <add place="over">Ceresa</add></subst></th
-				>
-				<th>«Ceresa» written over «Alice» by hand</th></tr
-			>
-			<tr>
-				<th data-fassung="DF"
-					><subst type="typewriter"><delete>Alice</delete> <add place="over">Ceresa</add></subst
-					></th
-				>
-				<th data-fassung="LF"
-					><subst type="typewriter"><delete>Alice</delete> <add place="over">Ceresa</add></subst
-					></th
-				>
-				<th>«Ceresa» written over «Alice» with typewriter</th></tr
-			>
-			<tr>
-				<th data-fassung="DF"
-					><substMargin><delete>Alice</delete> <add>Ceresa</add></substMargin></th
-				>
-				<th data-fassung="LF"
-					><substMargin><delete>Alice</delete> <add>Ceresa</add></substMargin></th
-				>
-				<th>«Ceresa» replaces «Alice» in the margin with typewriter</th></tr
 			>
 			<tr>
 				<th data-fassung="DF"
@@ -160,6 +131,60 @@
 					><substMargin type="hand"><delete>Alice</delete> <add>Ceresa</add></substMargin></th
 				>
 				<th>«Ceresa» replaces «Alice» in the margin by hand</th></tr
+			>
+			<!-- Typewriter -->
+			<tr>
+				<th data-fassung="DF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="over">Ceresa</add></subst
+					></th
+				>
+				<th data-fassung="LF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="over">Ceresa</add></subst
+					></th
+				>
+				<th>«Ceresa» written over «Alice» with the typewriter</th></tr
+			>
+			<tr>
+				<th data-fassung="DF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="above">Ceresa</add></subst
+					></th
+				>
+				<th data-fassung="LF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="above">Ceresa</add></subst
+					></th
+				>
+				<th>«Ceresa» replaces «Alice» above the line with the typewriter</th></tr
+			>
+			<tr>
+				<th data-fassung="DF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="below">Ceresa</add></subst
+					></th
+				>
+				<th data-fassung="LF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="below">Ceresa</add></subst
+					></th
+				>
+				<th>«Ceresa» replaces «Alice» below the line with the typewriter</th></tr
+			>
+			<tr>
+				<th data-fassung="DF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="inline">Ceresa</add></subst
+					></th
+				>
+				<th data-fassung="LF"
+					><subst type="typewriter"><delete>Alice</delete> <add place="inline">Ceresa</add></subst
+					></th
+				>
+				<th>«Ceresa» replaces «Alice» within the line with the typewriter</th></tr
+			>
+			<tr>
+				<th data-fassung="DF"
+					><substMargin type="typewriter"><delete>Alice</delete> <add>Ceresa</add></substMargin></th
+				>
+				<th data-fassung="LF"
+					><substMargin type="typewriter"><delete>Alice</delete> <add>Ceresa</add></substMargin></th
+				>
+				<th>«Ceresa» replaces «Alice» in the margin with the typewriter</th></tr
 			>
 
 			<!-- Repositioning -->
