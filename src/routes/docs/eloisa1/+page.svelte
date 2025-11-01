@@ -126,9 +126,11 @@
 			altrui sesso, di cui, sebbene se ne capacitasse perlomeno a modo<br />
 			suo, poco o nulla riusciva a capire e tanto meno,
 			<delete type="hand">a accettare, appunto.</delete>
+			<br />
+			<movedBlockRef data-ref="1" />
+			<br />
 			<insert place="inline">sembra di intendere, ad accettare.</insert>
 		</p>
-		<p><movedBlockRef data-ref="1" /></p>
 
 		<hline />
 	</div>
