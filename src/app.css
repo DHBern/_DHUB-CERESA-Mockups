@@ -12,28 +12,28 @@ a[data-crossref]::before {
 	@apply cursor-pointer rounded-xl bg-amber-100 px-2 font-bold;
 	content: '↗';
 }
-a[type=publisher]::before {
+a[type='publisher']::before {
 	@apply cursor-pointer rounded-xl bg-orange-100 px-2 font-bold;
 	content: '↗';
 }
-a[type=publisher] {
+a[type='publisher'] {
 	@apply text-orange-300;
 }
-a[type=person]::before {
+a[type='person']::before {
 	@apply cursor-pointer rounded-xl bg-red-100 px-2 font-bold;
 	content: '↗';
 }
-a[type=person] {
+a[type='person'] {
 	@apply pr-2 underline decoration-red-100 decoration-[18%];
 }
-a[type=place]::before {
+a[type='place']::before {
 	@apply cursor-pointer rounded-xl bg-sky-100 px-2 font-bold;
 	content: '↗';
 }
-a[type=work] {
+a[type='work'] {
 	@apply rounded-xl border border-green-500 pr-2;
 }
-a[type=work]::before {
+a[type='work']::before {
 	@apply cursor-pointer rounded-tl-xl rounded-bl-xl bg-green-100 px-2 font-bold;
 	content: '↗';
 }
@@ -59,13 +59,6 @@ insEditorial:hover:after {
 	content: '] Editorial insertion';
 } */
 
-unclear::before {
-	content: '[';
-}
-unclear::after {
-	content: ']';
-}
-
 illegible::before {
 	content: '[';
 }
@@ -75,21 +68,21 @@ illegible::after {
 
 /* Aternative Blocks */
 altVariant::before {
-		@apply absolute -top-2 -left-2 rounded-full bg-green-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
-		content: attr(data-label);
-	}
+	@apply absolute -top-2 -left-2 rounded-full bg-green-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
+	content: attr(data-label);
+}
 altVariant comment {
 	@apply hidden;
 }
 altVariant:hover comment {
-	@apply inline-block text-green-800 text-xs italic mb-8 mx-4;
-	}
+	@apply mx-4 mb-8 inline-block text-xs text-green-800 italic;
+}
 
+altVariant {
+	@apply relative mt-3 inline-block border-2 border-green-600 p-1 pt-6;
+}
 
-	altVariant {
-		@apply relative inline-block border-2 border-green-600 p-1 pt-6 mt-3;
-	}
-
+/* LESEFASSUNG */
 [data-fassung='LF'] {
 	delete,
 	choice orig,
@@ -99,8 +92,18 @@ altVariant:hover comment {
 	substMargin delete {
 		@apply hidden;
 	}
+
+
+	/* ------------------ */
+	/* Uncertain */
+	/* ------------------ */
+
+	unclear::after {
+		content: '[?]';
+	}
 }
 
+/* DIPLOMATIC FASSUNG */
 [data-fassung='DF'] {
 	movedBlock::before {
 		@apply absolute -top-2 -left-2 rounded-full bg-sky-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
@@ -112,11 +115,24 @@ altVariant:hover comment {
 	}
 
 	movedBlock {
-		@apply relative inline-block border-2 border-sky-600 p-1 pt-6 mt-3;
+		@apply relative mt-3 inline-block border-2 border-sky-600 p-1 pt-6;
 	}
 
 	movedBlockRef::after {
 		@apply inline-block h-6 w-6 items-center rounded-full bg-sky-100 pt-1 text-center text-xs font-bold text-black content-[attr(data-ref)];
+	}
+
+	/* ------------------ */
+	/* Uncertain */
+	/* ------------------ */
+
+	unclear::before {
+		@apply text-red-300;
+		content: '(';
+	}
+	unclear::after {
+		@apply text-red-300;
+		content: ')[?]';
 	}
 
 	/* ---------------------------- */
@@ -125,7 +141,7 @@ altVariant:hover comment {
 	/* Default style (= hand) */
 	add,
 	insert {
-		@apply **:text-blue-500 **:italic text-blue-500 italic;
+		@apply text-blue-500 italic **:text-blue-500 **:italic;
 	}
 
 	/* typewriter style */
@@ -133,7 +149,7 @@ altVariant:hover comment {
 	insert[type='typewriter'],
 	subst[type='typewriter'] add,
 	delete[type='typewriter'] {
-		@apply text-black decoration-black ;
+		@apply text-black decoration-black;
 	}
 
 	/* hand style */
@@ -145,12 +161,12 @@ altVariant:hover comment {
 	}
 
 	subst add {
-		@apply  text-blue-500 italic;
+		@apply text-blue-500 italic;
 	}
 	reg > add {
 		@apply text-red-300 not-italic;
 	}
-	substMargin:not([type=hand]) > add {
+	substMargin:not([type='hand']) > add {
 		@apply text-black not-italic;
 	}
 
@@ -164,9 +180,9 @@ altVariant:hover comment {
 		@apply text-xs;
 		vertical-align: sub;
 	}
-	insMargin[type=hand],
-	substMargin[type=hand] add {
-		@apply italic text-blue-500;
+	insMargin[type='hand'],
+	substMargin[type='hand'] add {
+		@apply text-blue-500 italic;
 	}
 
 	/* Strikethroughs */
@@ -235,9 +251,7 @@ altVariant:hover comment {
 		}
 	}
 	insEditorial,
-	unclear, 
 	illegible {
 		@apply text-red-300;
 	}
-	
 }

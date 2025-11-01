@@ -241,9 +241,12 @@
 				<th>Editorial insertion</th></tr
 			>
 			<tr>
-				<th data-fassung="DF">Ali<unclear>?</unclear> Ceresa</th>
-				<th data-fassung="LF">Ali<unclear>?</unclear> Ceresa</th>
-				<th>Uncertain reading</th></tr
+				<th data-fassung="DF">Ali<unclear>ce Ceresa</unclear></th>
+				<th data-fassung="LF">Ali<unclear>ce Ceresa</unclear></th>
+				<th
+					>Uncertain reading. The parantheses show, what part is uncertain. Note, that this can be
+					just a few letters or multiple words.</th
+				></tr
 			>
 			<tr>
 				<th data-fassung="DF">Alice <illegible>xxx</illegible> Ceresa</th>

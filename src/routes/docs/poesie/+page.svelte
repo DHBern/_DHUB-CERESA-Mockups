@@ -57,7 +57,12 @@
 				break="no"
 			/>
 
-			Zurigo, primavera 44. 15<unclear>?</unclear><insert>23</insert>.4.44.
+			Zurigo, primavera 44.
+			<subst>
+				<del>
+					<unclear>15</unclear>
+				</del><add place="over">23</add>
+			</subst>.4.44.
 		</p>
 	</div>
 </div>

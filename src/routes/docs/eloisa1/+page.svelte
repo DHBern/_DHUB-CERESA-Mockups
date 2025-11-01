@@ -49,7 +49,7 @@
 			<br /><delete type="typewriter">tari <add place="over">poche</add>frequentate</delete>
 			<delete type="typewriter">qua e là a</delete> ripetizione: mentre la nostra fin lì
 			<br /><delete type="typewriter"
-				>poteva mostrare <insert type="hand" place="above">presentare<unclear>?</unclear></insert> un
+				>poteva mostrare <insert type="hand" place="above"><unclear>presentare</unclear></insert> un
 				addirittura brillante curriculum.</delete
 			>
 			<br />aveva vantato un<add place="inline">a</add> addirittura brillante
