@@ -27,7 +27,7 @@
 				><delete>bianca</delete>
 				<add place="above">
 					<subst>
-						<del> e polvere </del>
+						<delete> e polvere </delete>
 						<add place="above">lunga</add>
 					</subst>
 				</add>
@@ -36,7 +36,8 @@
 
 			canta
 			<subst>
-				<del>il mio dolore</del><add place="below">un pianto <delete>solo</delete> lontano</add
+				<delete>il mio dolore</delete><add place="below"
+					>un pianto <delete>solo</delete> lontano</add
 				></subst
 			>
 			<br break="no" />
@@ -59,9 +60,9 @@
 
 			Zurigo, primavera 44.
 			<subst>
-				<del>
+				<delete>
 					<unclear>15</unclear>
-				</del><add place="over">23</add>
+				</delete><add place="over">23</add>
 			</subst>.4.44.
 		</p>
 	</div>
