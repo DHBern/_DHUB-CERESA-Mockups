@@ -224,7 +224,13 @@
 					>Alice Ceresa
 					<altVariant data-label="Variante alternativa"> Alice </altVariant></th
 				>
-				<th>An alternative way of writing «Alice Ceresa» is «Alice»</th>
+				<th
+					>An alternative way of writing «Alice Ceresa» is «Alice».<br />
+					<strong
+						><em>Note, that it's not clear yet what part of the text the alternative refers to!</em
+						></strong
+					></th
+				>
 
 				<!-- Editorial Interventions -->
 			</tr><tr><th><h3 class="mt-2 h5">Editorial Interventions</h3></th></tr>
@@ -269,8 +275,8 @@
 				<th data-fassung="DF">Ali<unclear>ce Ceresa</unclear></th>
 				<th data-fassung="LF">Ali<unclear>ce Ceresa</unclear></th>
 				<th
-					>Uncertain reading. The parantheses show, what part is uncertain. Note, that this can be
-					just a few letters or multiple words.</th
+					>Uncertain reading. The parantheses show, what part is uncertain. <br />
+					<strong><em>Note, that this can be just a few letters or multiple words!</em></strong></th
 				></tr
 			>
 			<tr>
