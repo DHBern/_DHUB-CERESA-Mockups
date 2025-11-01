@@ -18,10 +18,8 @@
 			<br />mammifero si sviluppa uterinamente, vale a dire all’interno dell’or<hyphen>-</hyphen><br
 			/>gano fisiologico femminile attrezzato per questa bisogna, e l’organi<hyphen>-</hyphen><br
 			/>smo femminile ne detiene quindi la proprietà di fatto. L’interruzione <br />dello sviluppo
-			dell’embrione viene appunto chiamat<subst>
-				<delete>o</delete>
-				<add place="over">a</add>
-			</subst> ABORTO.
+			dell’embrione viene appunto chiamat<subst><delete>o</delete><add place="over">a</add></subst>
+			ABORTO.
 		</p>
 		<p>
 			Molti mammiferi dispongono di un naturale controllo delle nascite in <br />quanto la
