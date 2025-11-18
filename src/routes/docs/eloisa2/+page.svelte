@@ -27,10 +27,10 @@
 			il nome della madre, per cui le Eloise vi si susseguivano
 			<delete type="hand">con regolarità</delete><insert place="above">senza posa</insert><br />
 			salvo forse rarissimi casi di assenza di prole<insert place="inline">,</insert> o comunque
-			prole fem<hyphen>-</hyphen><br />
-			minile<insert place="inline">,</insert> per una o l’altra di esse,<add>;</add> ma si
-			raccontava che si era allora<br />
-			provvedut<delete type="hand">o</delete>a ristabilire l’ordine con un piccolo scarto laterale
+			prole fem<hyphen>-</hyphen><br />minile<insert place="inline">,</insert> per una o l’altra di
+			esse,<add>;</add> ma si raccontava che si era allora<br /> provvedut<delete type="hand"
+				>o</delete
+			>a ristabilire l’ordine con un piccolo scarto laterale
 			<insert place="inline">,</insert><br />
 			incaricando della bisogna una madre acquisita per
 			<delete type="hand">intermissione</delete><insert place="above">tramite</insert>

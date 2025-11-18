@@ -51,27 +51,27 @@
 		<p>2 (aborto)</p>
 		<p>
 			Così applicandosi a uno solo dei due contraenti della copulazione e<br />
-			privilegiando l’uno nei confronti dell’altro, lasciato di fatto to<hyphen>-</hyphen><br />
-			talmente in disparte, la regolamentazione riproduttiva ha in realtà <br />
-			del tutto correttamente recepito lo stato di maggiore importanza ri<hyphen>-</hyphen><br />
-			vestito nella questione dal produttore effettivo o detentore
+			privilegiando l’uno nei confronti dell’altro, lasciato di fatto to<hyphen>-</hyphen><br
+			/>talmente in disparte, la regolamentazione riproduttiva ha in realtà <br />
+			del tutto correttamente recepito lo stato di maggiore importanza ri<hyphen>-</hyphen><br
+			/>vestito nella questione dal produttore effettivo o detentore
 			<delete type="typewriter">del ma<illegible>[xx]</illegible></delete> <br />
 			materiale unico del prodotto in causa. Difficilmente infatti avrebbe <br />
-			potuto esercitarsi sul concorrente emarginato, il ruolo di costui es<hyphen>-</hyphen><br />
-			sendo puramente ausiliario e quindi trascurabile perlomeno in termini <br />
+			potuto esercitarsi sul concorrente emarginato, il ruolo di costui es<hyphen>-</hyphen><br
+			/>sendo puramente ausiliario e quindi trascurabile perlomeno in termini <br />
 			di economia di mercato.<br />
 			La circostanza tuttavia che regolamentazione e amministrazione siano <br />
-			state, contrariamente a ogni logica produttiva, assunte dal contraen<hyphen>-</hyphen><br />
-			te ausiliario e quindi materialisticamente
+			state, contrariamente a ogni logica produttiva, assunte dal contraen<hyphen>-</hyphen><br />te
+			ausiliario e quindi materialisticamente
 			<subst
 				><delete type="typewriter">trascurabile</delete><add place="above" type="typewriter"
 					>irrilevante,</add
 				></subst
 			>
-			fa oggi l’og<hyphen>-</hyphen><br />
-			getto di una vertenza sindacale avanzata dal contraente amministrato,<br />
-			vertenza nota con il timido e alquanto improprio nome di “liberaliz<hyphen>-</hyphen><br />
-			zazione dell’ABORTO”.<br />
+			fa oggi l’og<hyphen>-</hyphen><br />getto di una vertenza sindacale avanzata dal contraente
+			amministrato,<br />
+			vertenza nota con il timido e alquanto improprio nome di “liberaliz<hyphen>-</hyphen><br
+			/>zazione dell’ABORTO”.<br />
 		</p>
 	</div>
 </div>

@@ -8,17 +8,14 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Eloisa (frammento 1)</h1>
-
 		<p>
 			In quegli anni Eloisa <choice>
 				<orig>avevA</orig>
 				<reg>avev<add resp="editors">a</add></reg>
 			</choice>
-			comunque già diversi se non molti problemi<subst>
-				<delete>.</delete>
-				<add place="over">,</add>
-			</subst>
-			<br />visibili, questi, a occhio nudo.
+			comunque già diversi se non molti problemi<subst
+				><delete>.</delete><add place="over">,</add></subst
+			><br /> visibili, questi, a occhio nudo.
 		</p>
 		<p>
 			Era gra<choice><orig>VE</orig><reg><add resp="editors">ve</add></reg></choice>mente peggiorata
@@ -40,7 +37,7 @@
 			<subst>
 				<delete>ne</delete>
 				<add place="over">a</add>
-			</subst>lle scuole elemen- <br break="no" /><!-- interlinear: --><add
+			</subst>lle scuole elemen<hyphen>-</hyphen><br /><!-- interlinear: --><add
 				place="above"
 				type="typewriter"
 				><delete type="typewriter">tari frequantate</delete>tari frequentate
@@ -67,8 +64,9 @@
 			Si dedicava assiduamente a occupazioni frivole, quali la ginnastica <br />serale in gruppi di
 			volontarie e volontari ad alto rendimento fisico <br />mentre non si sarebbe proprio potuto
 			dire che disponesse lei stessa <br />di particolari doti sportive, per quanto e non senza
-			grazia si sfor-<br break="no" />zasse; o ancora la costituzione e l’animazione di compagnie
-			filo-<lb break="no" />drammatiche di quartiere, rimaste del resto sempre ignote ai più,
+			grazia si sfor<hyphen>-</hyphen><br />zasse; o ancora la costituzione e l’animazione di
+			compagnie filo<hyphen>-</hyphen><br />drammatiche di quartiere, rimaste del resto sempre
+			ignote ai più,
 			<br />ma senz’altro sporadicamente apprezzate in occasione di ricorrenti <br />celebrazioni
 			scolastiche ufficiali per il resto grandemente noiose <br />sia per le scolaresche che per i
 			genitori ufficialmente convocati: <br />e qui un qualche successo lo riscuoteva, forse in
@@ -94,16 +92,16 @@
 				<delete>senza dubbio</delete>
 				<add place="above">già</add>
 			</subst>
-			una qualche complica-<br break="no" />zione comportava perché la sua massima aspirazione in
-			realtà era <br />la lettura alla quale nottetempo si dedicava accanitamente per sfuggire
+			una qualche complica<hyphen>-</hyphen><br />zione comportava perché la sua massima aspirazione
+			in realtà era <br />la lettura alla quale nottetempo si dedicava accanitamente per sfuggire
 			<br />al proprio presente che considerava se non squallido però del tutto
 			<br />insoddisfacente.
 		</p>
 
 		<movedBlock data-ref="1" data-label="Paragrafo riposizionato">
 			Intraprendeva perciò, e tutte quante sgranate lungo l’arco di una<br />
-			giornata, varie e diverse carriere, alle quali separatamente si dedi<hyphen /><br />cava con
-			trasporto e ampie immagi’<add>n</add>azioni proiettate in un favoloso<br />
+			giornata, varie e diverse carriere, alle quali separatamente si dedi<hyphen>-</hyphen><br
+			/>cava con trasporto e ampie immagi’<add>n</add>azioni proiettate in un favoloso<br />
 			futuro ogni volta poi con scoramento rimandante a un altro e un altro<br />
 			ancora, comportandosi tutti<add>o</add> sommato come un pippistrello accecato<br />
 			dalla luce fra pareti insormontabili, presa di volta in volta da<br />
