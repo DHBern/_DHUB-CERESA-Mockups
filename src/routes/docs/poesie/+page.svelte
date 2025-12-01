@@ -49,8 +49,9 @@
 					verbo «svanisce» («muore»; «si perde») e l'aggettivo «lontano» («più solo»), appuntate tra
 					parentesi tonde.</comment
 				>
-				svanisce <insert place="below">(si perde)</insert> <insert place="above">(muore)</insert> un
-				passo lontano <insert place="below">(più solo)</insert>
+				<ref>svanisce</ref> <insert place="below">(si perde)</insert>
+				<insert place="above">(muore)</insert>
+				un passo <ref>lontano</ref> <insert place="below">(più solo)</insert>
 			</altVariant>
 			<br break="no" />
 			dalla finestra nera<br break="no" />
