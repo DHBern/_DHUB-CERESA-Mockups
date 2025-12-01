@@ -202,6 +202,25 @@
 					></th
 				></tr
 			>
+			<!-- Mixed -->
+			<tr>
+				<th data-fassung="DF"
+					><subst
+						><delete type="typewriter">Alice</delete>
+						<add type="hand" place="above">Ceresa</add></subst
+					></th
+				>
+				<th data-fassung="LF"
+					><subst
+						><delete type="typewriter">Alice</delete>
+						<add type="hand" place="above">Ceresa</add></subst
+					></th
+				>
+				<th
+					>Mixed case: «Ceresa» (handwritten) replaces «Alice» above the line, where the latter is
+					striked through. <span class="text-red-500">Is this ever needed?</span></th
+				></tr
+			>
 
 			<!-- Repositioning -->
 			<tr><th><h3 class="mt-2 h5">Repositioning by Ceresa</h3></th></tr>
