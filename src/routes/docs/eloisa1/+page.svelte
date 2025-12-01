@@ -8,6 +8,7 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Eloisa (frammento 1)</h1>
+		<p><pagenum type="hand">11</pagenum></p>
 		<p>
 			In quegli anni Eloisa <choice>
 				<orig>avevA</orig>

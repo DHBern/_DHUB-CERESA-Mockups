@@ -8,6 +8,8 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Adamo</h1>
+		<p><pagenum type="hand">3</pagenum></p>
+		<p><pagenum type="hand">A</pagenum></p>
 		<p>
 			<a data-crossref href={`${base}/docs/adamo`}>Adamo →</a> nome proprio
 			<insert place="above"><delete>e</delete> cristiano</insert>

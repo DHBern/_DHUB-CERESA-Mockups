@@ -83,6 +83,7 @@ altVariant {
 	br:not([break='no']),
 	hyphen,
 	subst delete,
+	pagenum,
 	substMargin delete {
 		@apply hidden;
 	}
@@ -215,6 +216,20 @@ altVariant {
 	subst add[place='over']::after {
 		content: '}';
 	}
+
+
+	
+	/* --------------------------- */
+	/* Page Structure */
+	/* --------------------------- */
+	pagenum,
+	pagenum[type='typewriter'] {
+		@apply text-surface-900;
+	}
+	pagenum[type='hand'] {
+		@apply text-blue-500;
+	}
+
 
 	/* --------------------------- */
 	/* Editorial */

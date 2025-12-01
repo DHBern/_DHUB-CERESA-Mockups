@@ -266,9 +266,28 @@
 						></strong
 					></th
 				>
+			</tr>
 
-				<!-- Editorial Interventions -->
-			</tr><tr><th><h3 class="mt-2 h5">Editorial Interventions</h3></th></tr>
+			<!-- Page annotation by Ceresa -->
+			<tr><th><h3 class="mt-2 h5">Page annotations by Ceresa</h3></th></tr>
+			<tr>
+				<th data-fassung="DF"><pagenum type="hand">11</pagenum></th>
+				<th data-fassung="LF"><pagenum type="hand">11</pagenum></th>
+				<th>Page Number by hand on a typewriter-page</th></tr
+			>
+			<tr>
+				<th data-fassung="DF"><pagenum type="typewriter">11</pagenum></th>
+				<th data-fassung="LF"><pagenum type="typewriter">11</pagenum></th>
+				<th>Page Number with typewriter</th></tr
+			>
+			<tr>
+				<th data-fassung="DF"><pagenum>11</pagenum></th>
+				<th data-fassung="LF"><pagenum>11</pagenum></th>
+				<th>Page Number by hand on a handwritten page</th></tr
+			>
+
+			<!-- Editorial Interventions -->
+			<tr><th><h3 class="mt-2 h5">Editorial Interventions</h3></th></tr>
 			<tr>
 				<th data-fassung="DF">Alice Ceres<insEditorial>a</insEditorial></th>
 				<th data-fassung="LF">Alice Ceres<insEditorial>a</insEditorial></th>

@@ -9,6 +9,8 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Anima</h1>
+		<p><pagenum type="hand"><unclear>I</unclear></pagenum></p>
+
 		<p>ANIMA</p>
 		<p>
 			Secondo il dizionario, principio immateriale della vita negli<br />
