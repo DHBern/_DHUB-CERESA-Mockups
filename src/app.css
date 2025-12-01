@@ -90,11 +90,26 @@ altVariant ref {
 	}
 
 	/* ------------------ */
-	/* Uncertain */
+	/* Editorial          */
 	/* ------------------ */
 
 	unclear::after {
 		content: '[?]';
+	}
+
+	insEditorial {
+		@apply text-surface-900;
+	}
+	choice sic{
+		@apply hidden;
+	}
+	choice reg::before,
+	insEditorial::before {
+		content: '[';
+	}
+	choice reg::after,
+	insEditorial::after {
+		content: ']';
 	}
 }
 
@@ -233,24 +248,16 @@ altVariant ref {
 	/* Editorial */
 	/* --------------------------- */
 	choice {
-		orig,
-		sic {
-			@apply line-through decoration-surface-900 decoration-[10%];
-		}
 		reg {
-			@apply text-surface-900;
+			@apply hidden;
 		}
 	}
-	insEditorial,
 	illegible {
 		@apply text-surface-900;
 	}
 
-	insEditorial::before {
-		content: '[';
-	}
-	insEditorial::after {
-		content: ']';
+	insEditorial {
+		@apply hidden;
 	}
 
 	illegible::before {

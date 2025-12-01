@@ -110,7 +110,7 @@
 			futuro ogni volta poi con scoramento rimandante a un altro e un altro<br />
 			ancora, comportandosi tutt<subst><delete>i</delete><reg> <add type="hand">o</add></reg></subst
 			>
-			sommato come un pippistrello accecato<br />
+			sommato come un pi<choice><sic>pp</sic><reg>p</reg></choice>istrello accecato<br />
 			dalla luce fra pareti insormontabili, presa di volta in volta da<br />
 			inspiegabile sconforto, per fortuna di breve durata perché appunto<br />
 			scacciato dalla successiva immersione o emersione come poi si voglia.<br />
