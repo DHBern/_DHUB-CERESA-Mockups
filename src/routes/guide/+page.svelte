@@ -335,7 +335,7 @@
 						<reg><add>Ceresa</add></reg>
 					</choice>
 				</th>
-				<th>Editorial choice <strong><em>(full word)</em></strong></th></tr
+				<th>Editorial choice <strong><em>(full word or longer)</em></strong></th></tr
 			>
 			<tr>
 				<th data-fassung="DF">Ali<unclear>ce Ceresa</unclear></th>
