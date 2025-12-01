@@ -163,7 +163,7 @@ altVariant {
 		@apply text-black;
 	}
 
-	insert[place='above'],
+	/* insert[place='above'],
 	subst add[place='above'] {
 		@apply text-xs;
 		vertical-align: super;
@@ -172,7 +172,7 @@ altVariant {
 	subst add[place='below'] {
 		@apply text-xs;
 		vertical-align: sub;
-	}
+	} */
 	insMargin[type='hand'],
 	substMargin[type='hand'] add {
 		@apply text-blue-500;
