@@ -10,13 +10,16 @@
 		<h1 class="h1">Poesie</h1>
 		<p>
 			Ogni male che mi fai<br break="no" />
-			lo <delete>veli</delete> <add place="above">fai precedere</add> d’<insert>a</insert>una nuova
-			tenerezza<br break="no" />
+			lo <delete>veli</delete> <add place="above">fai precedere</add> d<subst place="inline"
+				><delete>’</delete><add>a</add></subst
+			>
+			una nuova tenerezza<br break="no" />
 			e non sai<br break="no" />
 			che per questo diventa più amaro.<br break="no" />
 			<br break="no" />
-			<span class="text-right">Losanna, luglio 1943</span><br break="no" />
-
+		</p>
+		<p ana="end-aligned">Losanna, luglio 1943</p>
+		<p>
 			<br break="no" />
 			<br break="no" />
 
@@ -50,8 +53,8 @@
 					parentesi tonde.</comment
 				>
 				<orig>
-				<ref>svanisce</ref> <insert place="below">(si perde)</insert>
-				<insert place="above">(muore)</insert>
+					<ref>svanisce</ref> <insert place="below">(si perde)</insert>
+					<insert place="above">(muore)</insert>
 				</orig><reg>svanisce</reg>
 				un passo
 				<orig>
@@ -85,11 +88,12 @@
 			</altVariant>
 			<br break="no" />
 			dalla finestra nera<br break="no" />
-			<delete>odo</delete> <insert place="below">vedo</insert> <delete>tra</delete>scorrere il fiume<br
-				break="no"
-			/>
-
-			Zurigo, primavera 44.
+			<delete>odo</delete> <insert place="below">vedo</insert> <delete>tra</delete>scorrere il fiume<insEditorial
+				>.</insEditorial
+			> <br break="no" />
+		</p>
+		<p ana="end-aligned">Zurigo, primavera 44.</p>
+		<p ana="end-aligned">
 			<subst>
 				<delete>
 					<unclear>15</unclear>
