@@ -8,34 +8,43 @@
 	- replace 
 
 */
+
 a[data-crossref]::before {
 	@apply rounded-xl bg-amber-100 px-2 font-bold;
 	content: '↗';
 }
-a[type='publisher']::before {
-	@apply rounded-xl bg-orange-100 px-2 font-bold;
+
+a[type='place']::before,
+a[type='person']::before,
+a[type='publisher']::before,
+a[type='work']::before{
+	@apply rounded-xl px-2 font-bold;
 	content: '↗';
 }
-a[type='publisher'] {
-	@apply text-orange-300;
+a[type='place']:before {
+	@apply rounded-xl bg-sky-100 px-2 font-bold;
 }
 a[type='person']::before {
 	@apply rounded-xl bg-red-100 px-2 font-bold;
-	content: '↗';
 }
-a[type='person'] {
-	@apply pr-2 underline decoration-red-100 decoration-[18%];
-}
-a[type='place']::before {
-	@apply rounded-xl bg-sky-100 px-2 font-bold;
-	content: '↗';
-}
-a[type='work'] {
-	@apply rounded-xl border border-green-500 pr-2;
+a[type='publisher']::before {
+	@apply rounded-xl bg-orange-100 px-2 font-bold;
 }
 a[type='work']::before {
-	@apply rounded-tl-xl rounded-bl-xl bg-green-100 px-2 font-bold;
-	content: '↗';
+	@apply rounded-xl bg-green-100 px-2 font-bold;
+}
+
+a[type='place'] {
+	@apply underline decoration-sky-100 decoration-3;
+}
+a[type='person'] {
+	@apply underline decoration-red-100 decoration-3;
+}
+a[type='publisher'] {
+@apply underline decoration-orange-100 decoration-3;
+}
+a[type='work'] {
+	@apply underline decoration-green-100 decoration-3;
 }
 
 h1 {
@@ -45,24 +54,23 @@ p {
 	@apply my-5;
 }
 
-
 /* Aternative Blocks */
 altVariant::before {
-	@apply absolute -top-2 -left-2 rounded-full bg-green-100-900 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
+	@apply absolute -top-2 -left-2 rounded-full bg-green-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
 	content: attr(data-label);
 }
 altVariant comment {
 	@apply hidden;
 }
 altVariant:hover comment {
-	@apply mx-4 mb-8 inline-block text-xs text-green-800-200 italic;
+	@apply mx-4 mb-8 inline-block text-xs text-green-800 italic;
 }
 
 altVariant {
-	@apply relative mt-3 inline-block border-2 border-green-600-400 p-1 pt-6;
+	@apply relative mt-3 inline-block border-2 border-green-600 p-1 pt-6;
 }
 altVariant ref {
-	@apply bg-green-100-900;
+	@apply bg-green-100;
 }
 
 /* LESEFASSUNG */
@@ -207,8 +215,6 @@ altVariant ref {
 		content: '}';
 	}
 
-
-	
 	/* --------------------------- */
 	/* Page Structure */
 	/* --------------------------- */
@@ -219,7 +225,6 @@ altVariant ref {
 	pagenum[type='hand'] {
 		@apply text-blue-500;
 	}
-
 
 	/* --------------------------- */
 	/* Editorial */
