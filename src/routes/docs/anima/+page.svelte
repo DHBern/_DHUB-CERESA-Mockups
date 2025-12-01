@@ -5,7 +5,7 @@
 <div class="grid grid-cols-2">
 	<div class="flex flex-col gap-10 p-10">
 		<img src={`${base}/images/anima-last.jpg`} alt="Scan" />
-		<img src={`${base}/images/anima-rsi.jpg`} alt="Scan" />
+		<!-- <img src={`${base}/images/anima-rsi.jpg`} alt="Scan" /> -->
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Anima</h1>
