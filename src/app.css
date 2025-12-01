@@ -93,10 +93,12 @@ p {
 	choice sic{
 		@apply hidden;
 	}
+	choice corr::before,
 	choice reg::before,
 	insEditorial::before {
 		content: '[';
 	}
+	choice corr::after,
 	choice reg::after,
 	insEditorial::after {
 		content: ']';
@@ -261,7 +263,8 @@ p {
 	/* Editorial */
 	/* --------------------------- */
 	choice {
-		reg {
+		reg, 
+		corr {
 			@apply hidden;
 		}
 	}
