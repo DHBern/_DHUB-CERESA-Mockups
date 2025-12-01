@@ -65,7 +65,7 @@ a[type='work'] {
 	@apply underline decoration-green-100 decoration-3 italic;
 }
 a[type='topic'] {
-	@apply underline decoration-purple-200 decoration-3 italic;
+	@apply underline decoration-purple-200 decoration-3;
 }
 
 h1 {
