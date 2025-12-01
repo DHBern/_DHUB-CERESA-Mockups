@@ -9,7 +9,7 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Anima</h1>
-		<p><pagenum type="hand"><unclear>I</unclear></pagenum></p>
+		<p><pagenum type="hand"><unclear>1</unclear></pagenum></p>
 
 		<p>ANIMA</p>
 		<p>
