@@ -45,19 +45,6 @@ p {
 	@apply my-5;
 }
 
-insEditorial::before {
-	content: '[';
-}
-insEditorial::after {
-	content: ']';
-}
-
-illegible::before {
-	content: '[';
-}
-illegible::after {
-	content: ']';
-}
 
 /* Aternative Blocks */
 altVariant::before {
@@ -246,6 +233,20 @@ altVariant {
 	insEditorial,
 	illegible {
 		@apply text-surface-900;
+	}
+
+	insEditorial::before {
+		content: '[';
+	}
+	insEditorial::after {
+		content: ']';
+	}
+
+	illegible::before {
+		content: '[';
+	}
+	illegible::after {
+		content: ']';
 	}
 
 	/* ------------------ */

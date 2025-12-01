@@ -10,9 +10,8 @@
 		<h1 class="h1">Eloisa (frammento 1)</h1>
 		<p><pagenum type="hand">11</pagenum></p>
 		<p>
-			In quegli anni Eloisa <choice>
-				<orig>avevA</orig>
-				<reg>avev<add resp="editors">a</add></reg>
+			In quegli anni Eloisa avev<choice
+				><orig>A</orig><reg><add resp="editors">a</add></reg>
 			</choice>
 			comunque già diversi se non molti problemi<subst
 				><delete>.</delete><add place="over">,</add></subst

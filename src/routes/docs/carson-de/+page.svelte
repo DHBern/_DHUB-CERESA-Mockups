@@ -201,10 +201,8 @@
 			><br />bilden und Unmöglichem herumirren.
 		</p>
 		<p>
-			Tatsächlich, wenn Carson <choice>
-				<orig>Mc Cullers</orig>
-				<reg>McCullers</reg>
-			</choice>, <br />ihre Bücher und ihre Art, Schreiben und
+			Tatsächlich, wenn Carson M<insEditorial>cC</insEditorial>ullers,<br />ihre Bücher und ihre
+			Art, Schreiben und
 			<br />Leben aufzufassen, das «junge <a type="place" key="#place_9903">Amerika</a>»
 			<br />vertreten, dann berührt uns dieses junge <br /><a type="place" key="#place_9903"
 				>Amerika</a
