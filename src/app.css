@@ -87,7 +87,6 @@ altVariant {
 		@apply hidden;
 	}
 
-
 	/* ------------------ */
 	/* Uncertain */
 	/* ------------------ */
@@ -114,19 +113,6 @@ altVariant {
 
 	movedBlockRef::after {
 		@apply inline-block h-6 w-6 items-center rounded-full bg-sky-100 pt-1 text-center text-xs font-bold text-black content-[attr(data-ref)];
-	}
-
-	/* ------------------ */
-	/* Uncertain */
-	/* ------------------ */
-
-	unclear::before {
-		@apply text-red-300;
-		content: '(';
-	}
-	unclear::after {
-		@apply text-red-300;
-		content: ')[?]';
 	}
 
 	/* ---------------------------- */
@@ -156,12 +142,10 @@ altVariant {
 	subst add[type='hand'] {
 		@apply text-blue-500;
 	}
-	reg > add {
-		@apply text-red-300;
-	}
-	substMargin:not([type='hand']) > add {
+
+	/* substMargin:not([type='hand']) > add {
 		@apply text-purple-500;
-	}
+	} */
 
 	/* insert[place='above'],
 	subst add[place='above'] {
@@ -236,16 +220,33 @@ altVariant {
 	/* Editorial */
 	/* --------------------------- */
 	choice {
-		orig, 
+		orig,
 		sic {
-			@apply line-through decoration-red-300 decoration-[10%];
+			@apply line-through decoration-surface-900 decoration-[10%];
 		}
 		reg {
-			@apply text-red-300;
+			@apply text-surface-900;
 		}
 	}
 	insEditorial,
 	illegible {
-		@apply text-red-300;
+		@apply text-surface-900;
+	}
+
+	/* ------------------ */
+	/* Uncertain */
+	/* ------------------ */
+
+	unclear::before {
+		@apply text-surface-900;
+		content: '(';
+	}
+	unclear::after {
+		@apply text-surface-900;
+		content: ')[?]';
+	}
+
+	reg > add {
+		@apply text-surface-900;
 	}
 }
