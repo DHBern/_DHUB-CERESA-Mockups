@@ -9,6 +9,10 @@
 
 */
 
+[ana='end-aligned'] {
+	@apply text-right;
+}
+
 a[data-crossref]::before {
 	@apply rounded-xl bg-amber-100 px-2 font-bold;
 	content: '↗';
