@@ -13,11 +13,14 @@ a[data-crossref]::before {
 	@apply rounded-xl bg-amber-100 px-2 font-bold;
 	content: '↗';
 }
+a[data-crossref] {
+	@apply underline decoration-amber-100 decoration-3;
+}
 
 a[type='place']::before,
 a[type='person']::before,
 a[type='publisher']::before,
-a[type='work']::before{
+a[type='work']::before {
 	@apply rounded-xl px-2 font-bold;
 	content: '↗';
 }
@@ -41,7 +44,7 @@ a[type='person'] {
 	@apply underline decoration-red-100 decoration-3;
 }
 a[type='publisher'] {
-@apply underline decoration-orange-100 decoration-3;
+	@apply underline decoration-orange-100 decoration-3;
 }
 a[type='work'] {
 	@apply underline decoration-green-100 decoration-3;
