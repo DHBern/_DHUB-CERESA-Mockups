@@ -146,7 +146,7 @@ altVariant {
 	subst[type='typewriter'] add,
 	subst[type='typewriter'] delete,
 	delete[type='typewriter'] {
-		@apply text-black decoration-black;
+		@apply text-purple-500 decoration-purple-500;
 	}
 
 	/* hand style */
@@ -160,7 +160,7 @@ altVariant {
 		@apply text-red-300;
 	}
 	substMargin:not([type='hand']) > add {
-		@apply text-black;
+		@apply text-purple-500;
 	}
 
 	/* insert[place='above'],
