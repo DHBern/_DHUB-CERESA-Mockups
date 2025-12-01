@@ -20,6 +20,15 @@
 	<table class="mx-auto mt-10 w-full text-left">
 		{@render thead()}
 		<tbody>
+			<!-- FORMATTING -->
+			<tr><th><h3 class="mt-2 h5">Insertions by Ceresa</h3></th></tr>
+			<!-- Aligning -->
+			<tr>
+				<th data-fassung="DF" ana="end-aligned">Alice Ceresa</th>
+				<th data-fassung="LF" ana="end-aligned">Alice Ceresa</th>
+				<th>Right alignment</th></tr
+			>
+
 			<!-- INSERTIONS -->
 			<tr><th><h3 class="mt-2 h5">Insertions by Ceresa</h3></th></tr>
 			<!-- Hand -->
