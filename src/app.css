@@ -135,7 +135,7 @@ altVariant {
 	/* Default style (= hand) */
 	add,
 	insert {
-		@apply text-blue-500 italic **:text-blue-500 **:italic;
+		@apply text-blue-500 **:text-blue-500;
 	}
 
 	/* typewriter style */
@@ -153,18 +153,14 @@ altVariant {
 	add[type='hand'],
 	insert[type='hand'],
 	subst[type='hand'] add,
-	add add[type='hand'] {
-		@apply text-blue-500 italic;
-	}
-
-	subst add {
-		@apply text-blue-500 italic;
+	subst add[type='hand'] {
+		@apply text-blue-500;
 	}
 	reg > add {
-		@apply text-red-300 not-italic;
+		@apply text-red-300;
 	}
 	substMargin:not([type='hand']) > add {
-		@apply text-black not-italic;
+		@apply text-black;
 	}
 
 	insert[place='above'],
@@ -179,7 +175,7 @@ altVariant {
 	}
 	insMargin[type='hand'],
 	substMargin[type='hand'] add {
-		@apply text-blue-500 italic;
+		@apply text-blue-500;
 	}
 
 	/* Strikethroughs */
