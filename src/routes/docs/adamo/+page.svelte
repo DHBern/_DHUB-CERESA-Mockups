@@ -9,7 +9,7 @@
 	<div class="p-15">
 		<h1 class="h1">Adamo</h1>
 		<p><pagenum type="hand">3</pagenum></p>
-		<p><pagenum type="hand">A</pagenum></p>
+		<p ana="end-aligned"><pagenum type="hand">A</pagenum></p>
 		<p>
 			<a data-crossref href={`${base}/docs/adamo`}>Adamo →</a> nome proprio
 			<insert place="above"><delete>e</delete> cristiano</insert>
@@ -23,7 +23,7 @@
 			Adamo <subst><delete>fu</delete> <add place="above">fosse stato</add></subst> creato da Dio
 			per godere del mondo, e<br />
 			<subst><delete>dalla</delete><add place="inline"><unclear>dalla</unclear></add></subst> sua
-			<insert place="above">25a</insert> costola lo stesso Dio trasse
+			<insert place="above">25<sup>a</sup></insert> costola lo stesso Dio trasse
 			<a data-crossref href={`${base}/docs/eva`}>→ Eva</a>. Poiché il corpo<br />
 			umano dispone di 24 costole (toltane Eva), si deve ragio<hyphen>-</hyphen><br />nevolmente
 			supporre che dal corpo di Adamo sarebbe<br />
@@ -77,8 +77,8 @@
 			</delete>
 			diffusamente in atto, benché naturalmente<br />
 			vadano considerate al solo livello della ricerca<br />
-			scientifica e conservino un carattere necessaria<hyphen>-</hyphen><br />mente a-accademico.
-			Nessuna seria ricerca è invece<br />
+			scientifica e conservino un carattere necessaria<hyphen>-</hyphen><br />mente
+			a&#8209;accademico. Nessuna seria ricerca è invece<br />
 			a tutt’oggi stata intrapresa per scoprire la ragione<br />
 			della diffusa tendenza a considerare infinito il<br />
 			numero 24, che sarebbe poi il limite posto da<br />
