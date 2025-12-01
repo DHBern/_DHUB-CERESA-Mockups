@@ -21,13 +21,11 @@
 			Era gra<choice><orig>VE</orig><reg><add resp="editors">ve</add></reg></choice>mente peggiorata
 			a scuola, non diventando l’ultima della
 			<br />classe soltanto perché c’era dopo di lei chi effettivamente poteva <br />mostrare
-			qualche giustificabile motivazione al poco
-			<br />rendimento con innate e facilmente rintracciabili predisposizioni alla manifesta<delete
-				>ta</delete
-			>
+			qualche giustificabile motivazione al poco rendimento con <br />innate e facilmente
+			rintracciabili predisposizioni alla manifesta<delete>ta</delete>
 			<br /><subst>
 				<delete>poca presenza</delete>
-				<add place="above">pochezza</add>
+				<add place="above" type="typewriter">pochezza</add>
 			</subst>
 			di cervello, come digià s’era
 			<subst>
@@ -37,19 +35,19 @@
 			<subst>
 				<delete>ne</delete>
 				<add place="over">a</add>
-			</subst>lle scuole elemen<hyphen>-</hyphen><br /><!-- interlinear: --><add
-				place="above"
-				type="typewriter"
-				><delete type="typewriter">tari frequantate</delete>tari frequentate
-				<add type="hand" place="inline">da questo o quello a</add></add
+			</subst>lle scuole elemen<hyphen>-</hyphen><br /><!-- interlinear: -->
+			<subst
+				><add place="above" type="typewriter"
+					><delete type="typewriter">tari frequantate</delete>tari frequentate
+					<add type="hand" place="inline">da questo o quello a</add></add
+				></subst
 			>
 			<br /><delete type="typewriter">tari <add place="over">poche</add>frequentate</delete>
-			<delete type="typewriter">qua e là a</delete> ripetizione: mentre la nostra fin lì
-			<br /><delete type="typewriter"
-				>poteva mostrare <insert type="hand" place="above"><unclear>presentare</unclear></insert> un
-				addirittura brillante curriculum.</delete
-			>
-			<br />aveva vantato un<add place="inline">a</add> addirittura brillante
+			<delete type="hand">qua e là a</delete> ripetizione : mentre la nostra fin lì
+			<br /><delete type="typewriter">poteva mostrare</delete><delete type="hand"
+				><insert type="hand" place="above"><unclear>presentare</unclear></insert></delete
+			><delete type="typewriter">un addirittura brillante curriculum.</delete>
+			<br />aveva vantato un<insert place="inline">a</insert> addirittura brillante
 			<subst>
 				<delete>curriculum.</delete>
 				<add place="inline"
@@ -70,23 +68,19 @@
 			<br />ma senz’altro sporadicamente apprezzate in occasione di ricorrenti <br />celebrazioni
 			scolastiche ufficiali per il resto grandemente noiose <br />sia per le scolaresche che per i
 			genitori ufficialmente convocati: <br />e qui un qualche successo lo riscuoteva, forse in
-			virtù del lung<subst>
-				<delete>o</delete>
-				<add place="over">a</add>
-			</subst><add place="inline">mente</add>
+			virtù del lung<subst><delete>o</delete><add place="over">a</add></subst><insert place="inline"
+				>mente</insert
+			>
 			<br /><subst>
 				<delete>allenamento</delete>
 				<add place="above">esercitato talento</add>
 			</subst>
-			teatral<subst>
-				<delete>i</delete>
-				<add place="over">e</add>
-			</subst><delete>zzante</delete> di cui come si sa già in passato aveva
+			teatral<subst><delete>i</delete><add place="over">e</add></subst><delete>zzante</delete> di
+			cui come si sa già in passato aveva
 			<br />dato prova; e altre sciocchezze di questo genere, richiedenti però <br />notevole
-			dispendio di tempo <add place="above">e energie</add> senza dubbio sottratt<subst>
-				<delete>o</delete>
-				<add place="over">i</add>
-			</subst>
+			dispendio di tempo <insert place="above">e energie</insert> senza dubbio sottratt<subst
+				><delete>o</delete><add place="over">i</add></subst
+			>
 			a più seriose <br />e utili applicazioni<delete>,</delete><!-- gap? -->: il che
 			<subst>
 				<delete>senza dubbio</delete>
@@ -97,32 +91,37 @@
 			<br />al proprio presente che considerava se non squallido però del tutto
 			<br />insoddisfacente.
 		</p>
-
-		<movedBlock data-ref="1" data-label="Paragrafo riposizionato">
-			Intraprendeva perciò, e tutte quante sgranate lungo l’arco di una<br />
-			giornata, varie e diverse carriere, alle quali separatamente si dedi<hyphen>-</hyphen><br
-			/>cava con trasporto e ampie immagi’<add>n</add>azioni proiettate in un favoloso<br />
-			futuro ogni volta poi con scoramento rimandante a un altro e un altro<br />
-			ancora, comportandosi tutti<add>o</add> sommato come un pippistrello accecato<br />
-			dalla luce fra pareti insormontabili, presa di volta in volta da<br />
-			inspiegabile sconforto, per fortuna di breve durata perché appunto<br />
-			scacciato dalla successiva immersione o emersione come poi si voglia.<br />
+		<p>
 			<delete type="hand">
 				E non in ultimo grandemente recalcitrava davanti alle vicende e alle<br />
-				pretese della propria e altrui realtà. <add>,</add>
-				<insert place="above">del proprio e altrui sesso,</insert> <br />
+				<delete type="typewriter">pretese della propria e altrui rea</delete>ltà.
+			</delete><add>,</add><delete type="hand">
+				<insert place="above" type="typewriter">del proprio e altrui sesso,</insert> <br />
 				di cui del resto, benché se ne capacitasse sebbene a modo suo, poco<br />
 				o nulla riusciva a capire. <add>,</add><br />
 				e tanto meno a accettare, appunto.
 			</delete><br />
+		</p>
+
+		<movedBlock data-ref="1" data-label="Paragrafo riposizionato">
+			Intraprendeva perciò, e tutte quante sgranate lungo l’arco di una<br />
+			giornata, varie e diverse carriere, alle quali separatamente si dedi<hyphen>-</hyphen><br
+			/>cava con trasporto e ampie immagi<add>n</add>azioni proiettate in un favoloso<br />
+			futuro ogni volta poi con scoramento rimandante a un altro e un altro<br />
+			ancora, comportandosi tutt<subst><delete>i</delete><reg> <add type="hand">o</add></reg></subst
+			>
+			sommato come un pippistrello accecato<br />
+			dalla luce fra pareti insormontabili, presa di volta in volta da<br />
+			inspiegabile sconforto, per fortuna di breve durata perché appunto<br />
+			scacciato dalla successiva immersione o emersione come poi si voglia.<br />
 		</movedBlock>
 		<p>
 			Ma <insert place="above">tutto</insert> questo indubbiamente non avrebbe potuto bastare per
 			costituire<br />
 			un serio problema, non fosse stato che in realtà essa grandemente<br />
-			recalcitrava davanti alle vicende e alle pretese del proprio e dell’<br />
-			altrui sesso, di cui, sebbene se ne capacitasse perlomeno a modo<br />
-			suo, poco o nulla riusciva a capire e tanto meno,
+			recalcitrava davanti alle vicende e alle pretese del proprio e dell’<br />altrui sesso, di
+			cui, sebbene se ne capacitasse perlomeno a modo<br />
+			suo, poco o nulla riusciva a capire e tanto meno<insert place="inline">,</insert>
 			<delete type="hand">a accettare, appunto.</delete>
 			<br />
 			<!-- <movedBlockRef data-ref="1" /> -->
