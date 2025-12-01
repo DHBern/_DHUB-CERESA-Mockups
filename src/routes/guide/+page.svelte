@@ -384,11 +384,21 @@
 			>
 			<tr
 				><th data-fassung="DF"
-					>This is how <a type="publisher" href="">Publishing houses</a> are highlighted.</th
+					>This is how <a type="org" href="">Publishing houses</a> and other
+					<a type="org" href="">Organisations</a> are highlighted.</th
 				></tr
 			>
 			<tr
 				><th data-fassung="DF">This is how <a type="work" href="">Works</a> are highlighted.</th
+				></tr
+			>
+			<tr
+				><th data-fassung="DF"
+					>This is how <a type="citation" href="">Citations</a> are highlighted.</th
+				></tr
+			>
+			<tr
+				><th data-fassung="DF">This is how <a type="topic" href="">Topics</a> are highlighted.</th
 				></tr
 			>
 		</tbody>

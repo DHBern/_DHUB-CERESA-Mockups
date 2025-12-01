@@ -23,8 +23,10 @@ a[data-crossref] {
 
 a[type='place']::before,
 a[type='person']::before,
-a[type='publisher']::before,
-a[type='work']::before {
+a[type='org']::before,
+a[type='citation']::before,
+a[type='work']::before,
+a[type='topic']::before {
 	@apply rounded-xl px-2 font-bold;
 	content: '↗';
 }
@@ -34,11 +36,17 @@ a[type='place']:before {
 a[type='person']::before {
 	@apply rounded-xl bg-red-100 px-2 font-bold;
 }
-a[type='publisher']::before {
+a[type='org']::before {
 	@apply rounded-xl bg-orange-100 px-2 font-bold;
+}
+a[type='citation']::before {
+	@apply rounded-xl bg-gray-300 px-2 font-bold;
 }
 a[type='work']::before {
 	@apply rounded-xl bg-green-100 px-2 font-bold;
+}
+a[type='topic']::before {
+	@apply rounded-xl bg-purple-200 px-2 font-bold;
 }
 
 a[type='place'] {
@@ -47,11 +55,17 @@ a[type='place'] {
 a[type='person'] {
 	@apply underline decoration-red-100 decoration-3;
 }
-a[type='publisher'] {
+a[type='org'] {
 	@apply underline decoration-orange-100 decoration-3;
 }
+a[type='citation'] {
+	@apply underline decoration-gray-300 decoration-3;
+}
 a[type='work'] {
-	@apply underline decoration-green-100 decoration-3;
+	@apply underline decoration-green-100 decoration-3 italic;
+}
+a[type='topic'] {
+	@apply underline decoration-purple-200 decoration-3 italic;
 }
 
 h1 {
