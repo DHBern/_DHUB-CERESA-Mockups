@@ -21,11 +21,16 @@
 		{@render thead()}
 		<tbody>
 			<!-- FORMATTING -->
-			<tr><th><h3 class="mt-2 h5">Insertions by Ceresa</h3></th></tr>
+			<tr><th><h3 class="mt-2 h5">Basic Formatting</h3></th></tr>
 			<!-- Aligning -->
 			<tr>
-				<th data-fassung="DF" ana="end-aligned">Alice Ceresa</th>
-				<th data-fassung="LF" ana="end-aligned">Alice Ceresa</th>
+				<th data-fassung="DF"><p><pagenum type="hand">99</pagenum></p></th>
+				<th data-fassung="LF"><p><pagenum type="hand">99</pagenum></p></th>
+				<th>Page Numbers</th></tr
+			>
+			<tr>
+				<th data-fassung="DF"><p ana="end-aligned">Alice Ceresa</p></th>
+				<th data-fassung="LF"><p ana="end-aligned">Alice Ceresa</p></th>
 				<th>Right alignment</th></tr
 			>
 
