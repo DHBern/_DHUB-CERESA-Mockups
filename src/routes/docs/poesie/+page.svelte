@@ -49,9 +49,39 @@
 					verbo «svanisce» («muore»; «si perde») e l'aggettivo «lontano» («più solo»), appuntate tra
 					parentesi tonde.</comment
 				>
+				<orig>
 				<ref>svanisce</ref> <insert place="below">(si perde)</insert>
 				<insert place="above">(muore)</insert>
-				un passo <ref>lontano</ref> <insert place="below">(più solo)</insert>
+				</orig><reg>svanisce</reg>
+				un passo
+				<orig>
+					<ref>lontano</ref> <insert place="below">(più solo)</insert>
+				</orig><reg>lontano</reg>
+			</altVariant>
+			<br break="no" />
+			<altVariant data-label="Variante alternativa">
+				<comment
+					>Nel marg. sin. l'autrice annotata una variante alternativa per il quarto verso della
+					lirica. Il verso contiene a sua volta un ulteriore serie di varianti alternative per il
+					verbo «svanisce» («muore»; «si perde») e l'aggettivo «lontano» («più solo»), appuntate tra
+					parentesi tonde.</comment
+				>
+				<orig>
+					<ref>svanisce</ref> <insert place="below">(si perde)</insert>
+					<insert place="above">(muore)</insert>
+				</orig><reg>svanisce</reg>
+			</altVariant>
+			un passo
+			<altVariant data-label="Variante alternativa">
+				<comment
+					>Nel marg. sin. l'autrice annotata una variante alternativa per il quarto verso della
+					lirica. Il verso contiene a sua volta un ulteriore serie di varianti alternative per il
+					verbo «svanisce» («muore»; «si perde») e l'aggettivo «lontano» («più solo»), appuntate tra
+					parentesi tonde.</comment
+				>
+				<orig>
+					<ref>lontano</ref> <insert place="below">(più solo)</insert>
+				</orig><reg>lontano</reg>
 			</altVariant>
 			<br break="no" />
 			dalla finestra nera<br break="no" />

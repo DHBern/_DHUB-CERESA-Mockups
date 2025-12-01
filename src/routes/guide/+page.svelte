@@ -252,20 +252,31 @@
 			<tr><th><h3 class="mt-2 h5">Variants</h3></th></tr>
 
 			<tr
-				><th
-					>Alice Ceresa
-					<altVariant data-label="Variante alternativa"> Alice </altVariant></th
-				><th
-					>Alice Ceresa
-					<altVariant data-label="Variante alternativa"> Alice </altVariant></th
-				>
-				<th
-					>An alternative way of writing «Alice Ceresa» is «Alice».<br />
-					<strong
-						><em>Note: It's not clear yet what part of the text the alternative refers to!</em
-						></strong
-					></th
-				>
+				><th data-fassung="DF">
+					<altVariant data-label="Variante alternativa">
+						<comment>A short comment<br /></comment>
+						<orig>
+							<ref>Alice Ceresa</ref>
+							<insert place="above">Alice</insert>
+							<insert place="below">Ceresa</insert>
+						</orig>
+						<reg>Alice</reg>
+					</altVariant>
+				</th><th data-fassung="LF">
+					<altVariant data-label="Variante alternativa"
+						><orig>
+							<ref>Alice Ceresa</ref>
+							<insert place="above">Alice</insert>
+							<insert place="below">Ceresa</insert>
+						</orig>
+						<reg>Alice</reg>
+					</altVariant>
+				</th><th
+					>Alternative ways of writing «Alice Ceresa» are «Alice» and «Ceresa». «Alice» was chosen
+					to be displayed in LF.<br />
+					The green highlight is not needed here, but if multiple alternatives should be contained in
+					one box, then some marker is required.
+				</th>
 			</tr>
 
 			<!-- Page annotation by Ceresa -->
