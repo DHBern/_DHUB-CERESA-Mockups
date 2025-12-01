@@ -56,7 +56,7 @@
 			/>talmente in disparte, la regolamentazione riproduttiva ha in realtà <br />
 			del tutto correttamente recepito lo stato di maggiore importanza ri<hyphen>-</hyphen><br
 			/>vestito nella questione dal produttore effettivo o detentore
-			<delete type="typewriter">del ma<illegible>[xx]</illegible></delete> <br />
+			<delete type="typewriter">del ma<illegible>xx</illegible></delete> <br />
 			materiale unico del prodotto in causa. Difficilmente infatti avrebbe <br />
 			potuto esercitarsi sul concorrente emarginato, il ruolo di costui es<hyphen>-</hyphen><br
 			/>sendo puramente ausiliario e quindi trascurabile perlomeno in termini <br />
