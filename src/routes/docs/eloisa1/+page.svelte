@@ -125,7 +125,7 @@
 			suo, poco o nulla riusciva a capire e tanto meno,
 			<delete type="hand">a accettare, appunto.</delete>
 			<br />
-			<movedBlockRef data-ref="1" />
+			<!-- <movedBlockRef data-ref="1" /> -->
 			<br />
 			<insert type="typewriter" place="inline">sembra di intendere, ad accettare.</insert>
 		</p>

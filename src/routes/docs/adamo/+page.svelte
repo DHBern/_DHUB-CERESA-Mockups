@@ -86,6 +86,6 @@
 			il numero delle costole potenzialmente autoriz<hyphen>-</hyphen><br />zate. È tuttavia
 			evidente che qui si esce dal<br />
 		</p>
-		<movedBlockRef data-ref="1" />
+		<!-- <movedBlockRef data-ref="1" /> -->
 	</div>
 </div>

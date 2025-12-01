@@ -57,7 +57,9 @@
 			<br break="no" />
 			<delete type="hand">
 				Anche le donne hanno evidentemente dovuto vivere per millenni<br />
-				senza l’ANIMa, essendo questa <movedBlockRef data-ref="1" /> stata
+				senza l’ANIMa, essendo questa
+				<!-- <movedBlockRef data-ref="1" /> -->
+				stata
 				<movedBlock data-ref="1" data-label="parola riposizionata">loro</movedBlock>
 				concessa soltanto<br />
 				nel per gentile concessione del Concilio
