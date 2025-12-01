@@ -61,25 +61,6 @@ p {
 	@apply my-5;
 }
 
-/* Aternative Blocks */
-altVariant::before {
-	@apply absolute -top-2 -left-2 rounded-full bg-green-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
-	content: attr(data-label);
-}
-altVariant comment {
-	@apply hidden;
-}
-altVariant:hover comment {
-	@apply mx-4 mb-8 inline-block text-xs text-green-800 italic;
-}
-
-altVariant {
-	@apply relative mt-3 inline-block border-2 border-green-600 p-1 pt-6;
-}
-altVariant ref {
-	@apply bg-green-100;
-}
-
 /* LESEFASSUNG */
 [data-fassung='LF'] {
 	delete,
@@ -101,6 +82,11 @@ altVariant ref {
 		content: '[?]';
 	}
 
+	altVariant comment,
+	altVariant orig {
+		@apply hidden;
+	}
+
 	insEditorial {
 		@apply text-surface-900;
 	}
@@ -119,6 +105,29 @@ altVariant ref {
 
 /* DIPLOMATIC FASSUNG */
 [data-fassung='DF'] {
+	/* Aternative Blocks */
+	altVariant::before {
+		@apply absolute -top-2 -left-2 rounded-full bg-green-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
+		content: attr(data-label);
+	}
+	altVariant comment {
+		@apply hidden;
+	}
+	altVariant:hover comment {
+		@apply mx-4 mb-8 inline text-xs text-green-800 italic;
+	}
+
+	altVariant {
+		@apply relative mt-3 inline-block border-2 border-green-600 p-1 pt-6;
+	}
+	altVariant ref {
+		@apply bg-green-100;
+	}
+
+	altVariant reg {
+		@apply hidden;
+	}
+
 	movedBlock::before {
 		@apply absolute -top-2 -left-2 rounded-full bg-sky-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
 		content: attr(data-ref);
