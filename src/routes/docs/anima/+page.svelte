@@ -17,7 +17,9 @@
 			degli esseri<br />
 			animali e vegetali in virtù della quale, oltre che muoversi,<br />
 			nutrirsi, assimilare e quant’altro, sono anche il grado di<br />
-			riprodursi sotto forme sempre uguali.<br />
+			riprodursi sotto forme sempre uguali.
+		</p>
+		<p>
 			Fra anima e vita corre dunque un rapporto di reciproca dipend<hyphen>-</hyphen><br />denza il
 			quale tuttavia non risulta indispensabile alla vita<br />
 			né animale né vegetale né altra, in quanto l’ANIMA è alloggia<hyphen>-</hyphen><br />ta
@@ -33,7 +35,9 @@
 			è un organismo non so<insert place="inline">l</insert>tanto invisibile, inodore, asonoro, im<hyphen
 				>-</hyphen
 			><br />
-			palpabile e insipido, ma anche razzista.<br />
+			palpabile e insipido, ma anche razzista.
+		</p>
+		<p>
 			È nonidemo studiata da apposite discipline e amministrata<br />
 			da specifiche istituzioni quali filosofie e psicologie da una<br />
 			parte, chie<subst><delete>de</delete><add place="over">se</add></subst> e manicomi dall’altra,
