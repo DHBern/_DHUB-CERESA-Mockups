@@ -10,7 +10,7 @@
 		<h1 class="h1">Carson McCullers</h1>
 		<p>
 			<span class="font-bold">Carson McCullers</span><br break="no" />
-			Una giovane scrittrice americana si fa strada.
+			<em>Una giovane scrittrice americana si fa strada.</em>
 		</p>
 		<p>
 			Al giorno d’oggi, Carson McCullers è sicuramente la giovane scrittrice americana più letta e
