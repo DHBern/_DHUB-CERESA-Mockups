@@ -28,13 +28,15 @@
 			<delete type="hand">con regolarità</delete><insert place="above">senza posa</insert><br />
 			salvo forse rarissimi casi di assenza di prole<insert place="inline">,</insert> o comunque
 			prole fem<hyphen>-</hyphen><br />minile<insert place="inline">,</insert> per una o l’altra di
-			esse,<add>;</add> ma si raccontava che si era allora<br /> provvedut<delete type="hand"
-				>o</delete
-			>a ristabilire l’ordine con un piccolo scarto laterale
-			<insert place="inline">,</insert><br />
+			esse<subst type="hand" place="inline"><delete>,</delete><add>;</add></subst> ma si raccontava
+			che si era allora<br />
+			provveduto<insert type="hand" place="inline">&nbsp;</insert>a ristabilire l’ordine con un
+			piccolo scarto laterale<insert place="inline">,</insert><br />
 			incaricando della bisogna una madre acquisita per
 			<delete type="hand">intermissione</delete><insert place="above">tramite</insert>
-			maschile<insert place="inline">,</insert><br />
+			maschile<delete type="hand">
+				<insert place="inline" type="hand">,</insert>
+			</delete><br />
 			<delete type="hand">pur sempre riferibile alla</delete><insert place="above"
 				>salvaguardando la</insert
 			>
@@ -62,12 +64,16 @@
 			ottusità opposte dalla medesima alle spiegazioni circa geografia<br />
 			e geometria dei legami parentali, per cui risultò impossibile tranquil<hyphen>-</hyphen><br
 			/>lizzare la piccola con la narrazione dell’usanza trasmessa di madre<br />
-			in figlia<insert place="inline">,</insert> o peggio ancora<insert place="inline">,</insert>
+			in figlia<insert place="inline">,</insert> o peggio ancora<delete type="hand">
+				<insert type="hand" place="inline">,</insert>
+			</delete>
 			nel nostro caso, di madre in madre: dove<br />
 			appare dopotutto non troppo peregrina la manifesta difficoltà di<br />
-			figlia e nipote a vederne la logica concatenazione, <add>;</add>se non poi eviden<hyphen
-				>-</hyphen
-			><br />temente con l’andare del tempo. Seguirono <insert place="above">le</insert>
+			figlia e nipote a vederne la logica concatenazione<subst place="inline" type="hand"
+				><delete>,</delete><add>;</add></subst
+			>
+			se non poi eviden<hyphen>-</hyphen><br />temente con l’andare del tempo. Seguirono
+			<insert place="above">le</insert>
 			intemperanze di proteste<br />
 		</p>
 	</div>
