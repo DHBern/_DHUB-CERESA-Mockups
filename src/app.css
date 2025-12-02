@@ -13,12 +13,16 @@
 	@apply text-right;
 }
 
-a[data-crossref]::before {
-	@apply rounded-xl bg-amber-100 px-2 font-bold;
-	content: '↗';
+/* Annotations and Crossreferences */
+a[type='crossref']::before {
+	@apply rounded-xl px-0 font-bold;
+	content: '→';
 }
-a[data-crossref] {
-	@apply underline decoration-amber-100 decoration-3;
+a[type='crossref'] {
+	@apply underline decoration-3 border decoration-amber-100 ml-0;
+}
+a[type='crossref']:hover {
+	@apply bg-amber-100;
 }
 
 a[type='place']::before,

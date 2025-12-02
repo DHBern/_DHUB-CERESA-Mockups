@@ -9,7 +9,7 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Aborto</h1>
-		<p><a data-crossref href="#">ABORTO</a> (Liberalizzazione del)</p>
+		<p><a type="crossref" href="#">ABORTO</a> (Liberalizzazione del)</p>
 		<p>
 			Attiene alla particolare prassi riproduttiva dei mammiferi la quale, <br />com’è noto,
 			discende dalla copulazione di due diversi organismi bio<hyphen>-</hyphen><br />logici, uno
@@ -19,7 +19,7 @@
 			/>gano fisiologico femminile attrezzato per questa bisogna, e l’organi<hyphen>-</hyphen><br
 			/>smo femminile ne detiene quindi la proprietà di fatto. L’interruzione <br />dello sviluppo
 			dell’embrione viene appunto chiamat<subst><delete>o</delete><add place="over">a</add></subst>
-			<a data-crossref href="#">ABORTO</a>.
+			<a type="crossref" href="#">ABORTO</a>.
 		</p>
 		<p>
 			Molti mammiferi dispongono di un naturale controllo delle nascite in <br />quanto la
@@ -45,7 +45,7 @@
 			femminile, nei riguardi del quale si è per semplicità risaliti <br />anche a monte ponendo
 			limitazioni alla permissività della copulazio<hyphen>-</hyphen><br />ne femminile perlomeno
 			nella prassi, nonché discesi a valle per
-			<br />quanto appunto riguarda l'<a data-crossref href="#">ABORTO</a>. L’amministratività ha
+			<br />quanto appunto riguarda l'<a type="crossref" href="#">ABORTO</a>. L’amministratività ha
 			sempre bada<hyphen>-</hyphen><br />to al sodo, non competendole compiti di maggiore
 			sottigliezza.
 		</p>
@@ -72,7 +72,7 @@
 			fa oggi l’og<hyphen>-</hyphen><br />getto di una vertenza sindacale avanzata dal contraente
 			amministrato,<br />
 			vertenza nota con il timido e alquanto improprio nome di “liberaliz<hyphen>-</hyphen><br
-			/>zazione dell'<a data-crossref href="#">ABORTO</a>”.<br />
+			/>zazione dell'<a type="crossref" href="#">ABORTO</a>”.<br />
 		</p>
 	</div>
 </div>

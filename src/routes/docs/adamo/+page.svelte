@@ -11,7 +11,7 @@
 		<p><pagenum type="hand">3</pagenum></p>
 		<p ana="end-aligned"><pagenum type="hand">A</pagenum></p>
 		<p>
-			<a data-crossref href={`${base}/docs/adamo`}>Adamo →</a> nome proprio
+			<a type="crossref" href={`${base}/docs/adamo`}>Adamo →</a> nome proprio
 			<insert place="above"><delete>e</delete> cristiano</insert>
 			per individui di sesso maschile, come ad esempio<br />
 			Pietro, Paolo, Giuseppe, Giovanni. L’origine di questo nome proprio<br />
@@ -24,7 +24,7 @@
 			per godere del mondo, e<br />
 			<subst><delete>dalla</delete><add place="inline"><unclear>dalla</unclear></add></subst> sua
 			<insert place="above">25<sup>a</sup></insert> costola lo stesso Dio trasse
-			<a data-crossref href={`${base}/docs/eva`}>→ Eva</a>. Poiché il corpo<br />
+			<a type="crossref" href={`${base}/docs/eva`}>→ Eva</a>. Poiché il corpo<br />
 			umano dispone di 24 costole (toltane Eva), si deve ragio<hyphen>-</hyphen><br />nevolmente
 			supporre che dal corpo di Adamo sarebbe<br />
 			stato possibile trarre altre 24 Eve. A quest<subst>
