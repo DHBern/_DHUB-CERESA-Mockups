@@ -364,16 +364,10 @@
 		</tbody>
 	</table>
 
-	<h1 class="mt-30 mb-20! h1">Semantic Annotations</h1>
+	<h1 class="mt-30 mb-10! h1">Semantic Annotations</h1>
 	<table class="mx-auto mt-10 w-full text-left">
 		<thead></thead>
 		<tbody>
-			<tr
-				><th class="font-bold! italic"
-					>Different combinations to get a feel about what's possible. Of course we should choose
-					one of these options.</th
-				></tr
-			>
 			<tr>
 				<th data-fassung="DF">This is how <a type="place" href="">Places</a> are highlighted.</th
 				></tr
@@ -401,6 +395,18 @@
 				><th data-fassung="DF">This is how <a type="topic" href="">Topics</a> are highlighted.</th
 				></tr
 			>
+		</tbody>
+	</table>
+	<h1 class="mt-30 mb-10! h1">Crossreferences</h1>
+	<table class="mx-auto mt-10 w-full text-left">
+		<thead></thead>
+		<tbody>
+			<tr>
+				<th data-fassung="DF">This is a <a type="crossref" href="#">CROSSREFERENCE</a> in DF</th>
+			</tr>
+			<tr>
+				<th data-fassung="LF">This is a <a type="crossref" href="#">CROSSREFERENCE</a> in LF</th>
+			</tr>
 		</tbody>
 	</table>
 </div>
